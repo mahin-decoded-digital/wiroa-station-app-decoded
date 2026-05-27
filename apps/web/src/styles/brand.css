@@ -1,0 +1,49 @@
+/* Wiroa Station — Brand-specific design tokens */
+
+:root {
+  /* Surface tints */
+  --surface-parchment: hsl(42, 20%, 97%);
+  --surface-cool: hsl(217, 30%, 97%);
+  --surface-deep: hsl(217, 40%, 14%);
+  --surface-ink: hsl(217, 50%, 10%);
+
+  /* Brand typography family references */
+  --font-serif: 'Cormorant Garamond', 'Georgia', serif;
+  --font-sans: 'Inter', 'system-ui', sans-serif;
+
+  /* Signature shadows */
+  --shadow-card: 0 1px 3px 0 hsl(217 30% 20% / 0.07), 0 1px 2px -1px hsl(217 30% 20% / 0.05);
+  --shadow-card-hover: 0 4px 16px 0 hsl(217 30% 20% / 0.1), 0 2px 6px -2px hsl(217 30% 20% / 0.08);
+  --shadow-panel: 0 8px 32px 0 hsl(217 30% 15% / 0.12);
+
+  /* Status colours — semantic, not generic */
+  --status-paid: hsl(152, 55%, 40%);
+  --status-paid-bg: hsl(152, 55%, 95%);
+  --status-pending: hsl(38, 85%, 42%);
+  --status-pending-bg: hsl(38, 85%, 95%);
+  --status-overdue: hsl(0, 70%, 50%);
+  --status-overdue-bg: hsl(0, 70%, 96%);
+
+  /* Election status */
+  --status-open: hsl(217, 91%, 50%);
+  --status-open-bg: hsl(217, 91%, 96%);
+  --status-upcoming: hsl(262, 60%, 55%);
+  --status-upcoming-bg: hsl(262, 60%, 96%);
+  --status-closed: hsl(220, 15%, 55%);
+  --status-closed-bg: hsl(220, 15%, 95%);
+
+  /* Category accents for Iwi */
+  --cat-consultation: hsl(262, 83%, 60%);
+  --cat-cultural: hsl(152, 55%, 40%);
+  --cat-meeting: hsl(217, 91%, 55%);
+  --cat-decision: hsl(38, 85%, 42%);
+  --cat-update: hsl(220, 15%, 50%);
+
+  /* Divider */
+  --rule-subtle: hsl(217, 20%, 90%);
+
+  /* Motion */
+  --ease-settle: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-quick: 150ms;
+  --duration-standard: 220ms;
+}
